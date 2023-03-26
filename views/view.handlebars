@@ -1,0 +1,15 @@
+<div id="px-view-container" class="container">
+  <div class="row text-center">
+    <a class="back-link main-color" href="/">Tela inicial</a>
+    <div id="img-container" class="col-md-12">
+            <img src="/estilos/img/empresa.png" alt="company">
+    </div>
+    <div class="col-md-12">
+        <h1>Vaga de {{px.dataValues.titulo}}</h1>  
+      <p><span class="bold">O salário informado é de:</span> R${{px.dataValues.salario}}</p>
+      <p>
+        Para se candidatar nessa vaga na <span class="bold main-color"><strong>{{px.dataValues.empresa}}</strong></span> envie um e-mail para <a class="main-color" href="mail:to{{px.dataValues.email}}">{{px.dataValues.email}}</a>
+      </p>
+    </div>
+  </div>
+</div>

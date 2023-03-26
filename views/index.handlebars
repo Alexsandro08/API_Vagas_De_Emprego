@@ -1,0 +1,41 @@
+<div id="top-container" class="container-fluid">
+  <h1 id="main-title" class="text-center">Encontre seu emprego desejado aqui!</h1>
+  <p id="main-subtitle" class="text-center">Site com mais oportunidades de vagas para tecnologia</p>
+  <form id="search-form" class="form-inline" action="/" method="GET">
+    <div class="form-group col-md-10">
+      <input type="text" class="form-control" id="px" name="px" placeholder="Digite a vaga que procura">
+    </div>
+    <div class="col-md-2">
+      <button type="submit" class="btn btn-primary">Procurar</button>
+    </div>
+  </form>
+</div>
+<main>
+  <div id="px-container" class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {{#if search}}
+          <h2 id="px-list-title">Vagas que contem: {{search}}</h2>
+        {{else}}
+          <h2 id="px-list-title"> Vagas em destaque</h2>
+        {{/if}}
+        <ul id="px-list" class="list-group">
+          {{#each px}}
+            <li class="list-group-item {{#if dataValues.new_px }}new-px{{/if}}">
+              <img src="estilos/img/company.png" alt="Company">
+              <p>Empresa: {{dataValues.empresa}}</p>
+              <h2>{{dataValues.titulo}}</h2>
+              <p>R${{dataValues.salario}}</p>
+              <span class="new-px-label">Nova</span>
+              <a class="btn btn-primary" href="/px/view/{{dataValues.id}}" href="/px/view/ {{dataValues.id}}">Ver vaga</a>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+            
+    
+
+    

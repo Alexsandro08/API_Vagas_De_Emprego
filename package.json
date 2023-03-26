@@ -1,0 +1,29 @@
+{
+  "name": "px_liver",
+  "version": "1.0.0",
+  "description": "Sistema para encontrar vagas de empregos",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "liver",
+    "liver",
+    "dev",
+    "px",
+    "dever"
+  ],
+  "author": "Alexsandro",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.2",
+    "sequelize": "^6.29.2",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

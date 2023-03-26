@@ -1,0 +1,41 @@
+
+
+
+ 
+ <div id="add-form-container" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Adicione sua vaga aqui</h1>
+            </div>
+            <div id="form-box" class="col-md-12">
+                <h2>Preencha os dados da vaga abaixo</h2>
+                <form action="/px/add" method="post">
+                  <div class="form-group">
+                    <label for="title">Título da Vaga</label>
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Digite o título da vaga" required>
+                    <small id="titleHelp" class="form-text text-muted">Obrigatorio*</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="salario">Salário</label>
+                    <input type="text" class="form-control" id="salario" name="salario" placeholder="Digite o salário proposto" required>
+                    <small id="titleHelp" class="form-text text-muted">Obrigatorio*</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="empresa">Nome da empresa</label>
+                    <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Digite o nome da Empresa" required>
+                    <small id="titleHelp" class="form-text text-muted">Obrigatorio*</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Digite o email para contato" required>
+                    <small id="titleHelp" class="form-text text-muted">Obrigatorio*</small>
+                  </div>
+                    <input type="hidden" name="new_px" value="1">
+                    <button type="submit" class="btn btn-primary">Cadastrar Vaga</button>
+                </form>
+            </div>
+        </div>
+    </div>

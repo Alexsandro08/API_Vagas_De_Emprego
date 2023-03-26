@@ -1,0 +1,253 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #c0bdbd;
+}
+
+.navbar{
+    padding: 1rem;
+    border-bottom: 1px solid #000;
+}
+
+
+.navbar .nav-item a{
+    color: #494949 ;
+}
+
+.nav-item {
+    margin: 0 8px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navbar .nav-item .btn{
+    color:#fff;
+    background-color: #5f9ea0;
+    border: 1px solid transparent;
+}
+
+.nav-link.btn.btn-primary:hover{
+    background-color: #4bc1c5;
+}
+
+#top-container{
+    padding: 150px;
+    background-image: url(img/home01.jpg);
+    background-attachment: fixed;
+    background-color: #c0bdbd;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: 0px -140px;
+    background-size: cover;
+}
+
+#main-title{
+    padding: 30px;
+    font-size: 3rem;
+}
+#main-subtitle{
+    font-size: 1.3rem;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+#search-form button{
+    background-color: #5f9ea0;
+    border: none;
+}
+#search-form button:hover{
+    background-color: #4bc1c5;
+    border: 1px solid transparent;
+}
+
+#px-list .list-group-item{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+#px-list .list-group-item p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+#px-list .list-group-item .new-px-label{
+    background-color: #0064007e;
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 60px;
+    text-align: center;
+    border: 1px solid #000;
+    color: #fff;
+    
+}
+
+.list-group-item img{
+    width: 35px;
+    border: 1px solid #000;
+    background-color: rgba(169, 169, 169, 0.466);
+    border-radius: 50%;
+    top: 3px;
+    position: absolute;
+    left: 149px;
+}
+.list-group-item a{
+    position: absolute;
+    background-color: #5f9ea0;
+    right: 20px;
+    top:35px;
+    border: none;
+}
+.list-group-item a:hover{
+    background-color: #4bc1c5;
+}
+
+.new-px-label{
+    text-transform: uppercase;
+
+     
+    
+}
+
+.new-px .new-px-label{
+   display: block;
+}
+
+/*Página de cadastro*/
+
+#add-form-container{
+    margin-top: 100px;
+}
+
+#add-form-container h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.text-center{
+    font-size: 3rem;
+}
+#subti{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#form-box{
+    padding: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 1px 1px #00000073;
+    border-radius: 10px;
+    background-color: #97939381;
+}
+#add-form-container label{
+    font-weight: bold;
+}
+
+#form-box button{
+    height: 50px;
+    float: right;
+    background-color: #5f9ea0;
+    border: none;
+    font-weight: bold;
+}
+
+#form-box button:hover{
+    background-color: #4bc1c5;
+}
+
+/*Página da vaga*/
+
+#px-view-container{
+    margin-top: 100px;
+}
+
+#px-view-container h1{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#img-container img{
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 45%;
+    border: 1px solid #7a7979b9;
+    
+}
+
+.back-link{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: -2px;
+    width: 10%;
+    font-size: 0.4em;
+    border-radius: 15px;
+    background-color: #5f9ea0;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    margin: auto;
+    margin-right: 100px;
+
+}
+
+.back-link:hover{
+    background-color: #4bc1c5;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.col-md-12 p{
+  font-size: 0.6em;
+}
+
+@media (max-width:767px){
+    #navbarNav{
+        text-align: center;
+    }
+    #top-container{
+        padding: 45px;
+        padding-top: 100px;
+    }
+    #main-title{
+        font-size: 2.2em;
+    }
+    #main-subtitle{
+        margin-top: -17px;
+        font-size:1em;
+    }
+    
+    #search-form{
+        padding: 0;
+    }
+    #px-container{
+        padding: 20px;
+    }
+    .list-group-item{
+        padding: 15px;
+        
+    }
+
+    .new-px-label{
+        display: none;
+    }
+    .list-group-item a{
+        margin-top: 55px;
+    }
+    .back-link{
+        width: 130px;
+        margin-left: 5px;
+    }
+}
+
+#img-container img{
+    width: 300px;
+
+}

@@ -57,7 +57,7 @@
 
 ````bash
 # Clonar projeto
-$ gh repo clone Alexsandro08/Projeto-site-de-vagas
+$ gh repo clone Alexsandro08/API_-Vagas_De_Emprego
 
 #Entrar no diretorio
 $ cd Projeto-site-de-vagas

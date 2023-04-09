@@ -60,7 +60,7 @@
 $ gh repo clone Alexsandro08/API_Vagas_De_Emprego
 
 #Entrar no diretorio
-$ cd Projeto-site-de-vagas
+$ cd API_Vagas_De_Emprego
 
 #Instalar dependências
 $ npm install

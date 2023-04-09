@@ -14,7 +14,7 @@
     <li>Colocar os dados da vaga que ele quer anunicar</li>
     <li>Ao finalizar ele pode apertar no botão "Cadastrar Vaga"</li>
     <li>Para ver a vaga anunciada ele pode apertar no botão "Ver Vaga"</li>
-    <li>Por fim para pesquisar as vagas pode apertar na barra de pesquisa acima e digitar a vaga o nome que procura</li>
+    <li>Por fim para pesquisar as vagas pode apertar na barra de pesquisa acima e digitar o nome da vaga que procura</li>
 
     
 

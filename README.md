@@ -2,7 +2,7 @@
 
 <img src="./img/img.png"><br>
 
-<a href="https://shy-moon-6673.fly.dev/">Link do Projeto 🔗</a><br>
+<a href="https://shy-moon-6673.fly.dev/" target="_blank">Link do Projeto 🔗</a><br>
 
 <h2>Resumo do Projeto 🧾<h2>
 <p>Este projeto descreve uma simulação de API de vagas. A API permite que os usuários se registrem como empregadores, criem um perfil, publiquem  para os canditatos verem a vagas disponivéis de emprego e se candidatem a vagas em aberto.(obs:Vagas fictícias)</p><br>

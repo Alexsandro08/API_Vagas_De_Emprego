@@ -11,7 +11,7 @@ const Op = Sequelize.Op
 
 
 
-const porta = 8000
+const porta = 8080
 
 app.listen(porta, ()=>{
     console.log(`Funcionando na porta ${porta}`)

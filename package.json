@@ -4,7 +4,7 @@
   "description": "Sistema para encontrar vagas de empregos",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [
     "dev",

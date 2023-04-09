@@ -25,10 +25,10 @@
 
 <h2>Tools ⚒️<h2>
 <img src="./img/nodejs_04.jpg" width="100"> 
-<img src="./img/images.png" width="84"><br>
+<img src="./img/images.png" width="84">
+<img src="./img/SQLite.png" width="68"><br> 
 <img src="./img/bootstrap-logo-vector.png" width="72"> 
-<img src="./img/SQLite.png" width="68"> 
-<img src="./img/css.png" width="80"><br>
+<img src="./img/css.png" width="80">
 
 <h2>EndPoints 🗔</h2>
 <h4>Parâmetros

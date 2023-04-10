@@ -10,7 +10,7 @@
 
 <h2>Como Utilizar a aplicação 💻<h2>
 <ul>
-    <li>O empregador deve ir em no botão "Abrir vaga"</li>
+    <li>O empregador deve ir no botão "Abrir vaga"</li>
     <li>Colocar os dados da vaga que ele quer anunicar</li>
     <li>Ao finalizar ele pode apertar no botão "Cadastrar Vaga"</li>
     <li>Para ver a vaga anunciada ele pode apertar no botão "Ver Vaga"</li>
@@ -33,11 +33,11 @@
 
 
 <h2>Tools ⚒️<h2>
-<img src="./img/nodejs_04.jpg" width="100"> 
-<img src="./img/images.png" width="84">
-<img src="./img/SQLite.png" width="68"><br> 
-<img src="./img/bootstrap-logo-vector.png" width="72"> 
-<img src="./img/css.png" width="80">
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"> 
+<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge">
+<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"><br> 
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"> 
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
 <br><h2>EndPoints 🗔</h2>
 <h4>Parâmetros

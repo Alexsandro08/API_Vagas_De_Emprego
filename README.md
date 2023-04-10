@@ -1,4 +1,4 @@
-<h1>Api de Vagas de Empregos</h1>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=Api+Vagas+de+Emprego;)](https://git.io/typing-svg)
 
 <img src="./img/img.png"><br>
 

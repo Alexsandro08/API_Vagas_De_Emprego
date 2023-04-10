@@ -8,7 +8,7 @@
 <p>Este projeto descreve uma simulação de API de vagas. A API permite que os usuários se registrem como empregadores, criem um perfil, publiquem  para os canditatos verem a vagas disponivéis de emprego e se candidatem a vagas em aberto.(obs:Vagas fictícias)</p><br>
 
 
-<h2>Como Usar 💻<h2>
+<h2>Como Utilizar a aplicação 💻<h2>
 <ul>
     <li>O empregador deve ir em no botão "Abrir vaga"</li>
     <li>Colocar os dados da vaga que ele quer anunicar</li>
@@ -20,7 +20,16 @@
 
 </ul> <br>
 
-<img src="./img/api03.gif"> <img src="./img/api01.gif"> <img src="./img/api02.gif">
+<img src="./img/api03.gif"> <img src="./img/api01.gif"> <img src="./img/api02.gif"> <br>
+
+<h2>Funcionalidades ⚙️</h2>
+ <ul>
+ <li>Busca</li> 
+ <li>Anúncio de vagas</li>
+ <li>Indentificar vagas novas</li>
+ <li>Vagas em Destaque</li>
+</ul><br>
+ 
 
 
 <h2>Tools ⚒️<h2>
@@ -30,7 +39,7 @@
 <img src="./img/bootstrap-logo-vector.png" width="72"> 
 <img src="./img/css.png" width="80">
 
-<h2>EndPoints 🗔</h2>
+<br><h2>EndPoints 🗔</h2>
 <h4>Parâmetros
 <ul>
     <li>Título (obrigatório): título da vaga.</li>
@@ -42,8 +51,8 @@
  <a href="#">Método: Post</a><br>
  <a href="#">Método: Get</a>
 
-<h2>FUNCIONALIDADES ⚙️</h2>
-<ul>
+
+<ul> <br>
     <li>Dependencias do projeto "Express"</li>
     <li>Pasta rotas define a rota da página "Cadastrar rotas"</li>
     <li>No arquivo "app" chama todas as dependecias necessária como o bodyParser,Sequelize, o banco de dados "SQLite" , express-handlebars, método "Path" (caminho), por fim o método "domain", que permite a criação de domínios de campos que podem ser aplicados a campos das tabelas, restringindo o conjunto de valores aceitos para inclusão e/ou alteração dos dados.

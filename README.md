@@ -28,6 +28,8 @@
  <li>Anúncio de vagas</li>
  <li>Indentificar vagas novas</li>
  <li>Vagas em Destaque</li>
+ <li>Adicionar</li>
+ <li>Deletar</li>
 </ul><br>
  
 
@@ -49,7 +51,8 @@
 </ul>
 <p>MÉTODO USADO DA API</p>
  <a href="#">Método: Post</a><br>
- <a href="#">Método: Get</a>
+ <a href="#">Método: Get</a><br>
+ <a href=#>Método: Delete<a/>
 
 
 <ul> <br>

@@ -26,7 +26,6 @@
  <ul>
  <li>Busca</li> 
  <li>Anúncio de vagas</li>
- <li>Indentificar vagas novas</li>
  <li>Vagas em Destaque</li>
  <li>Adicionar</li>
  <li>Deletar</li>
